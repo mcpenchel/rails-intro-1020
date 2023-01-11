@@ -1,0 +1,12 @@
+<h2>Qualquer dúvida, por favor entrar em contato via Slack!</h2>
+
+<form action="/about" method="get">
+  <input type="text" name="member" placeholder="Who are you looking for?">
+  <input type="text" name="city" placeholder="Qual cidade você vive?">
+  <input type="submit">
+</form>
+
+<p>Member: <%= params[:member] %></p>
+<p>City: <%= params[:city] %></p>
+<p>Country: <%= params[:country] %></p>
+<p>Time: <%= params[:time] %></p>
